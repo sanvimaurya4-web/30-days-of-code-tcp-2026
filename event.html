@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>event.html</title>
+</head>
+<body >
+
+    <!-- Centering everything using the <center> tag -->
+    <center>
+
+        <h1>Think.AI 2026</h1>
+        <p style="color: #666; margin-top: 0;">Annual Fest @ NIT Raipur</p>
+          <section>
+             <p>Welcome to Think.AI 2026, the world’s first "Cognitive Sandbox" where the line
+                 between human intuition and machine intelligence doesn't just blur—it disappears.</p>
+          </section>
+
+
+
+        <!-- Section 1: Event Schedule Table -->
+        <table border="1" cellpadding="10" width="60%" bgcolor="white">
+            <caption><strong>Event Schedule</strong></caption>
+            <thead>
+                <tr bgcolor="#D3D3D3">
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 AM</td>
+                    <td>Tech Keynote</td>
+                    <td>HIRA Hall</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>Workshop</td>
+                    <td>Lab B</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Lunch Break</td>
+                    <td>Canteen</td>
+                </tr>
+                <tr>
+                    <td>3:00 PM</td>
+                    <td>Model Showcase</td>
+                    <td>Garden </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><hr width="60%"><br>
+
+        <!-- Section 2: Registration Form -->
+
+        <h2>Registration Form</h2>
+        
+        <form method="POST" action="submit_form.php">
+            <table border="0" cellpadding="5">
+                <tr>
+                    <td><label for="team name">Team Name:</label></td>
+                    <td><input type="text" id="team name" name="team name"></td>
+                </tr>                
+                <tr>
+                    <td><label for="leader name">Leader Name:</label></td>
+                    <td><input type="text" id="leader name" name="leader name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" id="age" name="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Arrival Date:</label></td>
+                    <td><input type="date" id="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Ticket Type:</label></td>
+                    <td>
+                        <input type="radio" id="gen" name="ticket" value="general">
+                        <label for="gen">General</label>
+                        <input type="radio" id="vip" name="ticket" value="vip">
+                        <label for="vip">VIP</label>
+                        <input type="radio" id="stu" name="ticket" value="student">
+                        <label for="stu">Student</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Workshops:</label></td>
+                    <td>
+                        <input type="checkbox" id="w1" name="ws" value="Beginner">
+                        <label for="w1">Beginner</label>
+                        <input type="checkbox" id="w2" name="ws" value="Intermediate">
+                        <label for="w2">Intermediate</label>
+                        <input type="checkbox" id="w3" name="ws" value="Advanced">
+                        <label for="w3">Advanced</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="comments">Comments:</label></td>
+                    <td><textarea id="comments" name="comments" rows="4" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Submit Registration</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </center>
+
+</body>
+</html>
