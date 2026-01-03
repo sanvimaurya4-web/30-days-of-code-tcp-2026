@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
+
 </head>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,35 +16,76 @@
         <nav>
             <a href="index.html" target ="-main" style="color: #0066ff; text-decoration: none;">Home</a> • 
             <a href="about.html" target ="-main" style="color: #0066ff; text-decoration: none;">About Me</a>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<body >
+
+    <header>
+        <h1 >Sanvi Maurya</h1>
+        <tr>CSE Student @ NIT Raipur</tr>
+        <nav>
+            <a href="index.html" target ="-main" >Home</a> /
+            <a href="about.html" target ="-main" >About Me</a>
+
         </nav>
     </header>
 
     <main>
         <hr>
+
         <section style="background: white; padding: 20px; border-radius: 8px; border: 1px solid #eee;">
             <img src="profile.jpeg" alt="Profile" width="100" style="float: left; margin-right: 20px;">
             <p><strong>Hi!</strong> I'm Sanvi, a developer from Varanasi. I love building clean websites and I’m a CSE undergraduate passionate about software development and machine learning.
                  Currently, I’m focused on strengthening my DSA skills and working on real-world ML projects.
                  Welcome to my portfolio!</p>
             <div style="clear: both;"></div>
+
+        <h2 >Introduction</h2>
+        <section class="intro-container">
+
+                 <img src="profile.jpeg" alt="Profile" class="profile-img" >
+         <div class="intro-text">
+            <p><strong>Hi!</strong> I'm Sanvi, a developer from Varanasi. I love building clean websites and I’m a CSE undergraduate passionate about software development and machine learning.
+                 Currently, I’m focused on strengthening my DSA skills and working on real-world ML projects.
+                 Welcome to my portfolio!</p> 
+             </div>           
+
         </section>
         </hr>
 
 
         <hr>
+
         <h3 style="border-bottom: 2px solid #0066ff; display: inline-block;">Skills</h3>
         <ul>
+
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <div>
+
             <li><b>Programming Languages:</b> Python, C++</li>
             <li><b>Libraries & Frameworks:</b> NumPy, OpenCV, PyTorch</li>
             <li><b>Web Technologies:</b>HTML 5</li>
             <li><b>Tools & Frameworks:</b> GitHub, CAD, VS Code</li>
             <li><b>Soft Skills :</b>Mangement, Teamwork & Collaboration,Leadership,Time management </li>
+
+
+       </div>
+
         </ul>
 
 
         <hr>
+
         <h3 style="border-bottom: 2px solid #0066ff; display: inline-block;">Projects</h3>
         <ol>
+
+        <h2 >Projects</h2>
+        <ol class="project-list">
+
             <li><b>Brightness Controller for Images:</b></li>
                 <ul>
                     <article>Developed a Python application using OpenCV to adjust image brightness.</article>
@@ -59,7 +101,11 @@
                     <article>Built a Conditional DCGAN where class labels are embedded and jointly learned with image features to
                      produce class-conditioned synthetic images.</article>
                 </ul>
+
             <li><b>CycleGAN (pix2pix):</b></li>
+
+            <li><b>CycleGAN :</b></li>
+
                 <ul>
                     <article>Developed image-to-image translation models using pix2pix for paired supervised tasks and CycleGAN for unsupervised domain adaptation.</article>
                 </ul>     
@@ -72,6 +118,7 @@
 
 
         <hr>
+
         <iframe
             width="560"
              height="315"
@@ -82,6 +129,9 @@
              allowfullscreen>
              </iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=t53GjKQozlxzzDA5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
      <section>
             <h2>Testimonial</h2>
             <blockquote cite="https://example.com">
@@ -90,6 +140,16 @@
                 <cite>—  Lead Instructor</cite>
             </blockquote>
         </section>
+
+
+  <hr>
+     <h2>Button Group Layout</h2>
+    <div class=".btn">
+        <button type="button" class="btn">Button 1</button>
+        <button type="button" class="btn">Button 2</button>
+        <button type="button" class="btn">Button 3</button>
+    </div>
+
     </main>
 
     <footer>
